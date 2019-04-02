@@ -1,0 +1,10 @@
+@for $i from 1 through 6 {
+    .circle-#{$i} {
+        margin-left: 600+35px*$i;
+        margin-top: -44-6px*$i;
+        height: 50+5px*$i;
+        width: 50+5px*$i;
+        border: 3px+$i solid grey;
+        border-radius: 50%;
+    }
+}
